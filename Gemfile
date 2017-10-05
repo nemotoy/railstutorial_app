@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '5.1.2'
+gem 'rails',        '5.0.6'
+gem 'mysql2', '>= 0.3.18', '< 0.5'
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '3.2.0'
@@ -28,6 +29,3 @@ group :test do
   gem 'guard-minitest',           '2.4.4'
 end
 
-group :production do
-  gem 'pg', '0.18.4'
-end
